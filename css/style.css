@@ -1,0 +1,134 @@
+
+@font-face{
+    src: url("../fonts/California.ttf");
+    font-family: "Cali" ;
+}
+*{
+    padding: 0%;
+    margin: 0;
+}
+/* HEADER */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 13px;
+    background-color: #a9c094;
+}
+header section{
+    display: flex;
+    align-items: center;
+}
+header section img{
+    margin-right: 10px;
+}
+header h1{
+    color: #5b5035;
+    font-family: "Cali";
+    width: 700px;
+    padding-top: 20px;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main{
+    height: 650px;
+    background-image: url("../Img/fondo5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main h2{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Cali";
+    font-size: 50px;
+    color: #5b5035;
+    padding-top: 3%;
+}
+main h3{ 
+    display: flex;
+    justify-content: center;
+    color: rgb(214, 129, 45);
+    padding: 15px;
+    margin: 0px;
+}
+main p{
+    background-color: rgba(255, 228, 196, 0.622);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 500px;
+    border-style: inset;
+    border-radius: 30px;
+    margin-left: 450px;
+    text-align: center;    
+}
+div{
+    display: inline;
+    padding-left: 5%;
+}
+.grillaaromas{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(2, 30px);
+    grid-template-areas: 
+    "sahumerio sahumerio sahumerio sahumerio"
+    "sahumerio sahumerio sahumerio sahumerio"
+    ;
+    column-gap: 20px;
+    row-gap: 200px;
+}
+.imagenaromas{
+    grid-area: sahumerio;
+}
+div label{
+    background-color: rgba(255, 228, 196, 0.603);
+    color: rgb(0, 0, 0);
+}
+div button{
+    width: 300px;
+    height: 40px;
+    background-color: bisque;
+}
+.botoncompra{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+div button a{
+    text-decoration: none;
+}
+div textarea{
+    width: 1200px;
+    height: 250px;
+}
+.caja img{
+    height: 300px;
+    width: 300px;
+    margin: 60px;
+}
+/* FOOTER */
+footer{
+    height: 25px;
+    background-color: #a9c094c1;
+    padding: 10px;
+}
+footer div{
+    display: inline-block;
+}
+
